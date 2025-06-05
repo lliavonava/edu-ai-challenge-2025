@@ -1,0 +1,33 @@
+You are an expert database architect.  
+Analyze the following project requirements for a new social platform:
+
+- Millions of users (and growing)
+- Store user profiles, posts, and user-to-user connections
+- 80% read, 20% write operation ratio
+- High-speed data reads required (low latency)
+- Scalability is critical as the user base expands
+
+Your task:
+
+1. Step-by-step, apply Chain-of-Thought reasoning to:
+   - Identify and describe the main data entities and their relationships.
+   - Explain the most common data access patterns (e.g., user feed, profile lookup, friend-of-friend).
+   - Discuss the scalability and performance implications of these patterns.
+
+2. Compare at least three database paradigms (relational, document, graph, wide-column), evaluating each against the requirements above:
+   - Discuss strengths and weaknesses for each, focusing on read performance, relationship handling, scalability, and operational complexity.
+
+3. Select the most suitable database type for this project.
+   - Justify your choice by mapping specific requirements to database features.
+   - Explicitly state why this database is superior for this use case.
+
+4. Optionally, recommend a hybrid approach if it offers clear advantages, and explain how responsibilities would be divided.
+
+Format your answer as follows:
+
+- Step 1: Data Analysis
+- Step 2: Database Comparison
+- Step 3: Recommendation and Justification
+- Step 4: Hybrid Approach
+
+Be thorough, logical, and make your reasoning transparent.
