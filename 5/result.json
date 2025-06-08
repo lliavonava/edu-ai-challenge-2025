@@ -1,0 +1,69 @@
+Here is the structured analysis for both feedback samples, following the specified reasoning process and JSON format:
+
+---
+
+### **Sample 1 Analysis**
+
+**Reasoning:**
+The user reports a critical functional issue — the sensor intermittently stops tracking even at high polling rates (8000Hz). They confirm that the issue persists even when the mouse is wired, ruling out connection issues. Additionally, they note that a previous unit had a defective dongle, which forced a return. The mention of the \$150 price adds context to their dissatisfaction. This feedback is **clearly relevant** as it addresses major functional and quality concerns of the product.
+
+```json
+{
+  "sentiment": "Negative",
+  "isRelevant": true,
+  "mainSubject": "Sensor performance and hardware reliability",
+  "positives": [],
+  "painPoints": [
+    "Sensor intermittently stops tracking",
+    "Problem occurs even when mouse is plugged in",
+    "Initial unit had a faulty dongle",
+    "Premium price not justified by reliability"
+  ],
+  "improvementSuggestions": [
+    "Enhance sensor tracking stability at high polling rates",
+    "Improve dongle reliability and QA testing",
+    "Justify premium pricing with better quality assurance"
+  ],
+  "featuresMentioned": [
+    "Sensor",
+    "Polling rate (8000Hz)",
+    "Dongle",
+    "Price"
+  ],
+  "userExpertise": "Experienced"
+}
+```
+
+---
+
+### **Sample 2 Analysis**
+
+**Reasoning:**
+The user evaluates the product’s overall quality and performance as flawless, but expresses skepticism about its **value** relative to cheaper alternatives. This feedback reflects on both product perception and price-to-performance ratio, making it **highly relevant**. It also shows balanced judgment — praise for the product quality but criticism of its pricing — which qualifies the sentiment as **Mixed**.
+
+```json
+{
+  "sentiment": "Mixed",
+  "isRelevant": true,
+  "mainSubject": "Price-to-performance ratio",
+  "positives": [
+    "Product has no flaws in the user's opinion",
+    "Performs well"
+  ],
+  "painPoints": [
+    "Price not justified by performance advantage",
+    "Comparable results can be achieved with cheaper alternatives"
+  ],
+  "improvementSuggestions": [
+    "Reevaluate pricing strategy to better reflect performance advantage"
+  ],
+  "featuresMentioned": [
+    "Price",
+    "Performance",
+    "Specifications"
+  ],
+  "userExpertise": "Experienced"
+}
+```
+
+Let me know if you'd like this format applied to additional feedback samples.
