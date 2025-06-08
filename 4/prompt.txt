@@ -1,0 +1,42 @@
+You are an AI assistant tasked with performing a detailed code review using role prompting. You will analyze the following code snippet sequentially from three expert perspectives:
+1. Experienced Developer  
+2. Security Engineer  
+3. Performance Specialist
+For each role, provide a focused analysis including:  
+- Specific observations about the code quality, style, and maintainability (Developer).  
+- Security-related concerns, vulnerabilities, and best practices (Security Engineer).  
+- Performance implications, bottlenecks, and optimization suggestions (Performance Specialist).
+Your response should be clearly divided into three sections, one per role, with actionable recommendations for improving the code.
+Here is the code snippet to review:
+function processUserData(data: any) {
+  var users = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var user = {
+      id: data[i].id,
+      name: data[i].name,
+      email: data[i].email,
+      active: data[i].status === 'active' ? true : false
+    };
+    users.push(user);
+  }
+  console.log("Processed " + users.length + " users");
+  return users;
+}
+
+function saveToDatabase(users) {
+  //TODO: Implement database connection
+  var success = true;
+  return success;
+}
+
+Please provide your analysis in the following format:
+1. Experienced Developer Perspective: 
+- Observations: ...  
+- Recommendations: ...
+2. Security Engineer Perspective:  
+- Observations: ...  
+- Recommendations: ...
+3. Performance Specialist Perspective:
+- Observations: ...  
+- Recommendations: ...
