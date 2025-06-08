@@ -1,0 +1,19 @@
+{
+  "summary": "Remote work has grown in popularity, especially after the pandemic, offering benefits like improved job satisfaction, reduced commuting, and lower company costs. However, it also presents challenges such as employee isolation, decreased collaboration, and productivity issues. Despite these, remote and hybrid models are becoming a long-term trend, supported by advancing communication technologies.",
+   "sentiment": "Neutral",
+  "sentiment_score": 0,
+  "metadata": {
+    "input_text_length": 261,
+    "key_themes": [
+       "remote work benefits",
+      "employee satisfaction",
+      "cost savings",
+      "isolation and collaboration challenges",
+      "productivity issues",
+      "hybrid work models",
+      "technology enabling remote work"
+    ],
+    "dominant_tone": "Balanced",
+    "mentions_pandemic_impact": true
+  }
+}
